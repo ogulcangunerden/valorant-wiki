@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #ff4454;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.loading {
+  background-color: #333;
+  color: white;
+}
+.header-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #333;
+}
+
+.image-valo {
+  height: 80px;
+}
+.header-li:active {
+  background-color: #ff4454;
+  color: #fff;
+  margin-right: 20px;
+  padding: 5px 10px;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.header-li:hover {
+  background-color: #ff4454;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.header-table {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff4454;
+}
+
+.header-li {
+  color: #ff4454;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navlink {
+  color: #ff4454;
+  margin-right: 20px;
+  padding: 5px 10px;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+/* AGENT */
+.agent-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.agent-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  height: 90%;
+}
+
+.agent-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.agent-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.agent-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.agent-role {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  background-color: #ff4454;
+  color: #fff;
+  padding: 4px 15px;
+  border-radius: 10px;
+}
+.agent-ability {
+  display: flex;
+  margin-top: 20px;
+}
+.agent-ability p {
+  background-color: blue;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+/* MAP */
+
+.map-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.map-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  height: 90%;
+}
+
+.map-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.map-img {
+  height: 10%;
+  width: 100%;
+}
+
+.map-display {
+  height: 10%;
+  width: 100%;
+}
+
+/* Weapon */
+
+.weapon-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.weapon-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  height: 400px;
+}
+.weapon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.weapon-name {
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.weapon-img {
+  height: 10%;
+  width: 45%;
+}
+.weapon-detail {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 20px 0px;
+  background-color: #ff4454;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.weapon-cost {
+  font-size: 1.2rem;
+  margin: 10px 0px;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 5px;
+  color: #fff;
+}
